@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import Footer1 from '../../COMPONENTS/Footer/Footer1'
+// import Footer1 from '../../COMPONENTS/Footer/Footer1'
 import Footer2 from '../../COMPONENTS/Footer/Footer2'
 import Navbar from '../../COMPONENTS/Navbar/Navbar'
 import SingleBanner from '../../COMPONENTS/Banners/SingleBanner'
@@ -40,7 +40,7 @@ const UserProfile = () => {
               {activepage === 'legalnotice' && <LegalNotice/>}
             </div>
          </div>
-        <Footer1/>
+
         <Footer2/>
         </div>
   )
